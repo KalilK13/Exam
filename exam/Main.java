@@ -39,6 +39,7 @@ public class Main {
         System.out.println(walmart.calculatePay());
 
         Payable[] payableEntities = {walmart, lee, sam};
+        ShopApp.printClassNamesOfPayableEntities(payableEntities);
 
         Employee managerToEmployee = new HourlyEmployee("Bill", Size.L, 30, 20);
         System.out.println(((HourlyEmployee)managerToEmployee).getHourlyWage());

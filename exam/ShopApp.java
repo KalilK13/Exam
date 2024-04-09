@@ -17,6 +17,9 @@ public class ShopApp {
         return total;
     }
     public static void printClassNamesOfPayableEntities(Payable[] items){
+        for(Payable p: items){
+            System.out.println(p.getClass());
+        }
 
     }
 }

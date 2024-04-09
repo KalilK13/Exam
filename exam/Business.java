@@ -7,10 +7,19 @@ public class Business implements Payable{
     public Business(String name, int productQtySupplied, double productPrice){
         setProductPrice(productPrice);
         setProductQtySupplied(productQtySupplied);
+        setName(name);
     }
 
     public int getProductQtySupplied() {
         return productQtySupplied;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setProductQtySupplied(int productQtySupplied) {

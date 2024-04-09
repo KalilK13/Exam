@@ -8,6 +8,7 @@ public abstract class Person {
         setName(name);
         setSize(size);
     }
+    public Person(){}
 
     public String getName() {
         return name;
